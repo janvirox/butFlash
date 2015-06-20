@@ -8,7 +8,7 @@
     </value>
     <statement name="DO">
       <block type="led_select" id="105" inline="true">
-        <field name="ACTION">OFF</field>
+        <field name="ACTION">FLASH</field>
         <value name="LED">
           <block type="math_number" id="132">
             <field name="NUM">0</field>
@@ -16,7 +16,7 @@
         </value>
         <next>
           <block type="led_select" id="106" inline="true">
-            <field name="ACTION">ON</field>
+            <field name="ACTION">FLASH</field>
             <value name="LED">
               <block type="math_number" id="133">
                 <field name="NUM">5</field>
@@ -26,7 +26,7 @@
               <block type="robot_delay" id="141" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="142">
-                    <field name="NUM">200</field>
+                    <field name="NUM">1000</field>
                   </block>
                 </value>
               </block>
